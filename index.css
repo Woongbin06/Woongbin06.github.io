@@ -1,0 +1,23 @@
+.logo {
+  width : 100px;
+  height: 100px;
+  float: left;
+}
+.logo_text {
+  float : left;
+}
+#main_logo {
+  margin: auto;
+  height: 100px;
+}
+.tablinks {
+  display: block;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px 138px;
+}
+#menu_bar{
+  width: 100%;
+}

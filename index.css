@@ -121,8 +121,7 @@ input[id = "menuicon"]:checked + label + div {
   font-style: normal;
 }
 #section {
-  width: 1500px;
-  height: 1000px;
+  width: 100%;
 }
 #section > img {
   width: 317px;

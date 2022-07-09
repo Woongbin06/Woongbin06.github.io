@@ -1,11 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Gmaket Sans';
+  border: 0;
+}
+body {
+  background: #F8F8F8;
 }
 header {
   position: relative;
-  border: 0.4px solid #919191;
+  border-bottom: 0.4px solid #919191;
 }
 #main {
   position: relative;
@@ -16,16 +19,12 @@ header {
 #main > p {
   position: absolute;
   width: 344px;
-  height: 22px;
-  top: 24px;
-  left: 40px;
+  top: 23px;
   font-family: 'Gmarket Sans';
   font-style: normal;
-  font-weight: 400;
+  margin-left: 55px;
   font-size: 24px;
-  line-height: 24px;
   text-align: center;
-  color: #000000;
 }
 img {
   position: absolute;
@@ -112,6 +111,7 @@ input[id = "menuicon"]:checked + label + div {
 .menu {
   font-size: 20px;
   margin: 30px 0;
+  cursor: pointer;
 }
 .menu:hover {
   background-color: #919191;
@@ -121,16 +121,38 @@ input[id = "menuicon"]:checked + label + div {
   font-size: 30px;
   font-style: normal;
 }
-#section {
-  width: 100%;
-  height: 1117px;
-  position: relative;
-  display: flex;
-  justify-content: center;
+#logo {
+  text-align: center;
+  font-family: 'Gmarket Sans';
+  font-style: normal;
+}
+#logo > h3 {
+  font-size: 25px;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+#logo > h4 {
+  font-size: 20px;
+  color: rgba(40, 40, 40, 0.58);
 }
 .menu_logo {
-  position: absolute;
+  margin: 100px 0 10px;
   width: 150px;
   height: 150px;
-  padding: 50px 0 0 0;
+  position: relative;
+}
+#box {
+  margin: 50px auto 0;
+  width: 1300px;
+  height: 435px;
+  background: rgba(153, 153, 153, 0.1);
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  position: relative;
+}
+#box > img {
+  position: absolute;
+  margin: 30px 37%;
+  width: 350px;
+  height: 350px;
 }

@@ -126,12 +126,12 @@ input[id = "menuicon"]:checked + label + div {
   font-family: 'Gmarket Sans';
   font-style: normal;
 }
-#logo > h3 {
+.logo_text {
   font-size: 25px;
   font-style: normal;
   margin-bottom: 10px;
 }
-#logo > h4 {
+.small_text {
   font-size: 20px;
   color: rgba(40, 40, 40, 0.58);
 }
@@ -152,7 +152,31 @@ input[id = "menuicon"]:checked + label + div {
 }
 #box > img {
   position: absolute;
-  margin: 30px 37%;
+  transform: translate(-50%, -50%);
   width: 350px;
-  height: 350px;
+  height: 420px;
+  left: 50%;
+  top: 50%;
+}
+#box {
+  font-style: normal;
+  font-family: 'Gmarket Sans';
+}
+.big1 {
+  position: absolute;
+  font-size: 36px;
+  left: 12%;
+  top: 10%;
+}
+.big2 {
+  position: absolute;
+  font-size: 36px;
+  right: 12%;
+  top: 80%;
+}
+a {
+  text-decoration: none;
+}
+.menu > a {
+  color: white;
 }

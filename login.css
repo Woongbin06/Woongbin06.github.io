@@ -37,8 +37,8 @@
 }
 #logo {
   position: relative;
-  width: 180px;
-  height: 180px;
+  width: 170px;
+  height: 170px;
   left: 50%;
   transform: translate(-50%);
 }
@@ -47,16 +47,16 @@
   height: 237px;
   margin: 5% auto;
 }
-.main_text {
-  font-family: 'Gmarket Sans';
-  font-style: normal;
-  font-size: 23px;
-  text-align: center;
-}
-.sub_text {
+.main_txt {
   font-family: 'Gmarket Sans';
   font-style: normal;
   font-size: 20px;
+  text-align: center;
+}
+.sub_txt {
+  font-family: 'Gmarket Sans';
+  font-style: normal;
+  font-size: 17px;
   color: rgba(40, 40, 40, 0.58);
   text-align: center;
 }
@@ -64,4 +64,17 @@
   width: 330px;
   height: 60px;
   border: 1px solid black;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)  ;
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+}
+.txt_field {
+  border: 1px solid black;
+  border-radius: 7px;
 }

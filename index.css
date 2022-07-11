@@ -136,42 +136,40 @@ input[id = "menuicon"]:checked + label + div {
   color: rgba(40, 40, 40, 0.58);
 }
 .menu_logo {
-  margin: 100px 0 10px;
+  margin: 50px 0 10px;
   width: 125px;
   height: 125px;
   position: relative;
 }
 #box {
   margin: 50px auto 0;
-  width: 1300px;
-  height: 435px;
+  width: 1000px;
+  height: 300px;
   background: rgba(153, 153, 153, 0.1);
   box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   position: relative;
+  font-style: normal;
+  font-family: 'Gmarket Sans';
 }
 #box > img {
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 350px;
-  height: 420px;
+  width: 250px;
+  height: 270px;
   left: 50%;
   top: 50%;
-}
-#box {
-  font-style: normal;
-  font-family: 'Gmarket Sans';
 }
 .big1 {
   position: absolute;
   font-size: 36px;
-  left: 12%;
+  left: 7%;
   top: 10%;
 }
 .big2 {
   position: absolute;
   font-size: 36px;
-  right: 12%;
+  right:5%;
   top: 80%;
 }
 a {

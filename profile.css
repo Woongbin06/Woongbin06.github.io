@@ -130,17 +130,17 @@ a {
 .menu > a {
   color: white;
 }
-#profill {
+#profile {
   width: 1200px;
   height: 90.8vh;
   background: rgba(255, 255, 255, 0.67);
   margin: 0 auto;
 }
-#profill > p {
+#profile > p {
   position: absolute;
   font-family: 'Gmarket Sans';
   font-size: 30px;
-  margin: 60px 0 0 75px;
+  margin: 40px 0 0 55px;
 }
 .teacher {
   position: absolute;
@@ -150,20 +150,25 @@ a {
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  top: 50%;
+  top: 45%;
   left: 30%;
   transform: translate(-50%, -20%);
 }
 #flex_container {
-  width: 100%;
-  height: auto;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  float: right;
+  margin: 100px 200px 0 0;
 }
 .student {
-  width: 200px;
-  height: 200px;
+  width: 75px;
+  height: 90px;
   background: #FFFFFF;
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  margin: 10px;
+  margin: 10px 0;
 }
